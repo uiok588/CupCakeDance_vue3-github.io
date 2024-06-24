@@ -8,6 +8,7 @@ import vue from "@vitejs/plugin-vue";
 //電腦內開啟所使用
 //要使用這一區塊才可以跑所有vue3終端機指令
 export default defineConfig({
+  base: "./",
   plugins: [vue()],
   resolve: {
     alias: {
